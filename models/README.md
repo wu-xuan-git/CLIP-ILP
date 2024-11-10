@@ -13,6 +13,11 @@ Disclaimer: The model card is taken and modified from the official CLIP reposito
 
 ## Model Details
 
+Please download the pytorch_model.bin file at the following website.
+https://hf-mirror.com/openai/clip-vit-large-patch14/tree/main
+
+Place dataset pictures in the images folder. Annotations.json includes descriptive text corresponding to all the pictures in the dataset.
+
 The CLIP model was developed by researchers at OpenAI to learn about what contributes to robustness in computer vision tasks. The model was also developed to test the ability of models to generalize to arbitrary image classification tasks in a zero-shot manner. It was not developed for general model deployment - to deploy models like CLIP, researchers will first need to carefully study their capabilities in relation to the specific context they’re being deployed within.
 
 ### Model Date
